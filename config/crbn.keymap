@@ -18,7 +18,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT  &kp ESC
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp DEL
    &kp LGUI  &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH  &kp LALT
-   &none 	 &none &none &kp LSHFT  &mo 4  &lt 1 SPACE &lt 2 BSPC  &lt 3 RET &kp LEFT &kp DOWN &kp UP &kp RIGHT
+   &none     &none &none &mo 4 &lt 1 SPACE  &kp LSHFT &kp RSHFT &lt 2 BSPC  &lt 3 RET &none &none &none
                         >;
                 };
 
@@ -27,7 +27,7 @@
    &trans &none     &none    &none    &none &none        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
    &trans &none     &none    &none    &none &none        &kp CAPS  &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &out OUT_TOG
    &trans &none     &none    &none    &none &none        &kp INS   &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans
-   &trans &trans 	&trans 	 &trans   &trans &trans      &kp BSPC  &trans &trans &trans &trans &trans
+   &trans &trans 	&trans 	 &trans   &trans     &kp BSPC  &trans  &trans &trans &trans &trans &trans
                         >;
                 };
 
@@ -36,7 +36,7 @@
    &trans &kp LBKT  &kp N7    &kp N8    &kp N9    &kp RBKT        &none    &none    &none    &none    &none   &kp ESC
    &trans &kp SEMI  &kp N4    &kp N5    &kp N6    &kp EQUAL       &none    &none    &none    &none    &none   &kp DEL
    &trans &kp GRAVE &kp N1    &kp N2    &kp N3    &kp BSLH        &none    &none    &none    &none    &none   &kp LALT
-   &trans &trans    &trans    &trans    &kp N0    &kp SPACE       &kp MINUS &trans  &trans   &trans &trans &trans
+   &trans &trans    &trans    &kp N0    &kp SPACE &kp MINUS       &trans &trans    &trans   &trans &trans &trans
                         >;
                 };
                 special_chars {
@@ -44,7 +44,7 @@
    &trans &kp LBRC  &kp AMPS  &kp STAR  &kp LPAR  &kp RBRC        &none    &none    &none    &none    &none   &trans
    &trans &kp COLON &kp DLLR  &kp PRCNT &kp CARET &kp PLUS        &none    &none    &none    &none    &none   &trans
    &trans &kp TILDE &kp EXCL  &kp AT    &kp HASH  &kp PIPE        &none    &none    &none    &none    &none   &trans
-   &trans &trans    &trans    &trans &kp LPAR    &kp RPAR         &kp UNDER &trans  &trans   &trans   &trans  &trans
+   &trans &trans    &trans    &kp LPAR    &kp RPAR  &kp UNDER     &trans &trans  &trans   &trans   &trans  &trans
                         >;
                 };
                 f_keys {
